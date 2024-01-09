@@ -53,12 +53,12 @@ const Table = () => {
             <GrPrevious />
             Previous
           </span>
-        ), // Text for the "previous" button
+        ),
         nextIcon: (
           <span className="pagination-action">
             Next <GrNext />
           </span>
-        ), // Text for the "next" button
+        ),
       }}
       onChange={() => {}}
     />

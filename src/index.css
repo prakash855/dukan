@@ -11,6 +11,7 @@
 .ant-pagination {
   display: flex;
   justify-content: center !important;
+  margin-top: 24px !important;
 }
 
 .ant-menu-item-selected {

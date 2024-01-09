@@ -15,6 +15,8 @@ import Discounts from "../../assets/discounts.svg";
 import Audience from "../../assets/audience.svg";
 import Appearance from "../../assets/appearance.svg";
 import Plugins from "../../assets/plugins.svg";
+import credits from "../../assets/credits.svg";
+
 import SidebarUser from "../SidebarUser/SidebarUser";
 
 const sidebarLinks = [
@@ -80,6 +82,17 @@ const Sidebar = () => {
         defaultSelectedKeys={["7"]}
         items={items}
       />
+      <div className="user ">
+        <div className="user-data sidebar-profile">
+          <div className="user-logo">
+            <img src={credits} alt="UserLogo" />
+          </div>
+          <div className="profile">
+            <div className="available-credits">Available Credits</div>
+            <div className="credits">222.10</div>
+          </div>
+        </div>
+      </div>
     </Sider>
   );
 };
