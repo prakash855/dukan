@@ -1,7 +1,7 @@
 import { Layout } from "antd";
 import Body from "./components/Body/Body";
 import Head from "./components/Head/Head";
-import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 const { Footer } = Layout;
 
 const App = () => {
