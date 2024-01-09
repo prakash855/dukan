@@ -1,5 +1,7 @@
 import { Table as NativeTable } from "antd";
 
+import { GrPrevious, GrNext } from "react-icons/gr";
+
 const columns = [
   {
     title: "Order ID",
@@ -46,8 +48,17 @@ const Table = () => {
         current: 10,
         pageSize: 10,
         showSizeChanger: false,
-        prevIcon: <span>{`<  Previous`}</span>, // Text for the "previous" button
-        nextIcon: <span>{`Next  >`}</span>, // Text for the "next" button
+        prevIcon: (
+          <span className="pagination-action">
+            <GrPrevious />
+            Previous
+          </span>
+        ), // Text for the "previous" button
+        nextIcon: (
+          <span className="pagination-action">
+            Next <GrNext />
+          </span>
+        ), // Text for the "next" button
       }}
       onChange={() => {}}
     />

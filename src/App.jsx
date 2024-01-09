@@ -4,6 +4,8 @@ import Head from "./components/Head/Head";
 import Sidebar from "./components/Sidebar/Sidebar";
 const { Footer } = Layout;
 
+import "./App.css";
+
 const App = () => {
   return (
     <Layout>

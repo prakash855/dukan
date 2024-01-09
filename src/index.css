@@ -12,3 +12,8 @@
   display: flex;
   justify-content: center !important;
 }
+
+.ant-menu-item-selected {
+  background-color: #363c53 !important;
+  border-radius: 4px !important;
+}

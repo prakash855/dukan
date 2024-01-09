@@ -61,6 +61,7 @@ const items = sidebarLinks.map((label, index) => ({
 const Sidebar = () => {
   return (
     <Sider
+      style={{ background: "#1e2640" }}
       breakpoint="lg"
       collapsedWidth="0"
       onBreakpoint={(broken) => {
@@ -73,6 +74,7 @@ const Sidebar = () => {
       <div className="demo-logo-vertical" />
       <SidebarUser />
       <Menu
+        style={{ background: "#1e2640" }}
         theme="dark"
         mode="inline"
         defaultSelectedKeys={["7"]}
