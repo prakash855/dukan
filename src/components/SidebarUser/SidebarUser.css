@@ -1,0 +1,31 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 16px 18px;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.visit-store {
+  color: var(--Black-100, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.profile {
+  margin-left: 12px;
+}
