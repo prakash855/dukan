@@ -1,33 +1,16 @@
-import { Layout, theme } from "antd";
+import { Layout } from "antd";
+import Body from "./components/Body/Body";
 import Head from "./components/Head/Head";
 import Sidebar from "./components/sidebar/Sidebar";
-const { Header, Content, Footer } = Layout;
+const { Footer } = Layout;
 
 const App = () => {
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
   return (
     <Layout>
       <Sidebar />
       <Layout>
         <Head />
-        <Content
-          style={{
-            margin: "24px 16px 0",
-          }}
-        >
-          <div
-            style={{
-              padding: 24,
-              minHeight: 360,
-              background: colorBgContainer,
-              borderRadius: borderRadiusLG,
-            }}
-          >
-            content
-          </div>
-        </Content>
+        <Body />
         <Footer
           style={{
             textAlign: "center",

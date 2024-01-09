@@ -16,7 +16,7 @@ const Head = () => {
   return (
     <Header
       style={{
-        padding: 16,
+        // padding: 16,
         background: colorBgContainer,
       }}
     >
