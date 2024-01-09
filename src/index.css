@@ -7,3 +7,8 @@
   > input.ant-input {
   background: #f2f2f2;
 }
+
+.ant-pagination {
+  display: flex;
+  justify-content: center !important;
+}

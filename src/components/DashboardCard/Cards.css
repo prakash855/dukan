@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}

@@ -1,5 +1,13 @@
-import { Layout, theme } from "antd";
+import { Layout, theme, Input } from "antd";
+import Cards from "../DashboardCard/Cards";
+import { SearchOutlined } from "@ant-design/icons";
 const { Content } = Layout;
+
+import Sort from "../../assets/Sort.svg";
+import Download from "../../assets/download.svg";
+
+import "./Body.css";
+import Table from "../Table";
 
 const Body = () => {
   const {
@@ -19,7 +27,26 @@ const Body = () => {
           borderRadius: borderRadiusLG,
         }}
       >
-        content
+        <Cards />
+        <div className="table-header-text">Transactions | This Month</div>
+        <div className="tabel-action">
+          <Input
+            style={{ background: "#f2f2f2", width: "248px" }}
+            placeholder="Order ID, phone or name..."
+            prefix={<SearchOutlined />}
+          />
+          <div className="actions">
+            <div className="action-icons">
+              Sort <img src={Sort} alt="" />
+            </div>
+            <div className="action-icons">
+              <img src={Download} alt="Download" />
+            </div>
+          </div>
+        </div>
+
+        {/* Table */}
+        <Table />
       </div>
     </Content>
   );
