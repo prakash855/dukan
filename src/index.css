@@ -1,11 +1,6 @@
-:where(.css-dev-only-do-not-override-dkbvqv).ant-layout
-  .ant-layout-sider-children {
-  height: 98vh;
-}
-
 :where(.css-dev-only-do-not-override-dkbvqv).ant-input-affix-wrapper
   > input.ant-input {
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
 }
 
 .ant-pagination {
