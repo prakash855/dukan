@@ -34,7 +34,6 @@ const Head = () => {
         </Col>
         <Col span={8} style={{ textAlign: "center" }}>
           <Input
-            style={{ background: "#f2f2f2" }}
             placeholder="Search features, tutorials, etc."
             prefix={<SearchOutlined />}
           />

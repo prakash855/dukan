@@ -31,7 +31,7 @@ const Body = () => {
         <div className="table-header-text">Transactions | This Month</div>
         <div className="tabel-action">
           <Input
-            style={{ background: "#f2f2f2", width: "248px" }}
+            style={{ width: "248px" }}
             placeholder="Order ID, phone or name..."
             prefix={<SearchOutlined />}
           />
